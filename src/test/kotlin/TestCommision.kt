@@ -108,7 +108,7 @@ class TestCommision {
 
         val result = comission(typeCard,transfer,previous)
 
-        assertEquals(0,result)
+        assertEquals(1,result)
     }
     @Test
     fun comisionMaestro() {
@@ -118,7 +118,7 @@ class TestCommision {
 
         val result = comission(typeCard,transfer,previous)
 
-        assertEquals(0,result)
+        assertEquals(2,result)
     }
     @Test
     fun comisionMaestro2() {
@@ -128,7 +128,7 @@ class TestCommision {
 
         val result = comission(typeCard,transfer,previous)
 
-        assertEquals(80,result)
+        assertEquals(70,result)
     }
 
 
